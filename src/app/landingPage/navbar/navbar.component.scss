@@ -1,0 +1,24 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    gap: 50em;
+    margin-top: 5em;
+}
+.logo{
+    background-image: url("./../../../assets/IMG/2. Sakura Logo@3x.png");
+    width: 4em;
+    height: 4em;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Raleway';
+    color: white;
+    gap: 1em;
+    font-size: 2em;
+}
