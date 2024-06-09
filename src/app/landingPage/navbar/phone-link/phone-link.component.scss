@@ -1,0 +1,17 @@
+a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 0.2em ridge white;
+    border-radius: 1em;
+    padding: 0.1em;
+    background-color: #ff000069;
+}
+.imgPhone{
+    background-image: url("./../../../../assets/IMG/1.\ Phone@3x.png");
+    width: 1em;
+    height: 1em;
+    background-size: cover;
+}
