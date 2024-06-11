@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-dish',
@@ -9,5 +9,15 @@ import { Component } from '@angular/core';
   styleUrl: './dish.component.scss'
 })
 export class DishComponent {
-
+  public dishesNames: string[] = [
+    "TONKATSU RAMEN",
+    "SPICY MISO RAMEN",
+    "SHIO RAMEN"
+  ]
+  name:string = "";
+  @Input() index!: number;
+  constructor(){
+    this.name = this.dishesNames[this.index]
+    console.log(this.index)
+  }
 }
