@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { PhoneLinkComponent } from './phone-link/phone-link.component';
+import { PhoneLinkComponent } from './phonelink/phone-link.component';
 @Component({
   selector: 'app-navbar',
   standalone: true,

@@ -6,7 +6,7 @@ import { CaptionComponent } from "./caption/caption.component";
 @Component({
     selector: 'app-landingPage',
     standalone: true,
-    imports: [CommonModule, CaptionComponent, NavbarComponent],
+    imports: [CommonModule, NavbarComponent,CaptionComponent],
     templateUrl: './landingPage.component.html',
     styleUrls: ['./landingPage.component.scss']
 })

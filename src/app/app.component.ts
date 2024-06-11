@@ -1,13 +1,15 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { LandingPageComponent } from './landingPage/landingPage.component';
-import { HowTwoComponent } from './how-two/how-two.component';
+import { MainContentComponent } from './main-content/main-content.component';
+import { CommonModule } from '@angular/common';
+import { FooterComponent } from './shared/components/footer/footer.component';
+import { ImprintComponent } from './imprint/imprint.component';
 
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, LandingPageComponent, HowTwoComponent],
+  imports: [CommonModule,RouterOutlet, MainContentComponent,FooterComponent,ImprintComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
