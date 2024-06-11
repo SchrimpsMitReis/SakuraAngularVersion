@@ -10,11 +10,10 @@ import { Component, Input} from '@angular/core';
 })
 export class OrderOptionComponent {
   @Input() text!: string;
-  
-  
+  @Input() url!: string;
   
   constructor(){
     
   }
-
+  
 }
