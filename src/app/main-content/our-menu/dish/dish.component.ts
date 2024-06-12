@@ -14,10 +14,12 @@ export class DishComponent {
     "SPICY MISO RAMEN",
     "SHIO RAMEN"
   ]
-  name:string = "";
-  @Input() index!: number;
+  @Input() name!: string;
+  @Input() url!: string;
+  @Input() switch: boolean = false;
   constructor(){
-    this.name = this.dishesNames[this.index]
-    console.log(this.index)
+    console.log(this.name);
+    
   }
+
 }

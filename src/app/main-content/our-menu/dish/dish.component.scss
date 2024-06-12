@@ -22,10 +22,9 @@ h3 {
     gap: 8em;
     padding-top: 4em;
 }
-.dishImage{
-    $imgSize: 15em;
-    background-image: url("./../../../../assets/IMG/2.\ R1-CP.png");
-    background-size: cover;
-    width: $imgSize;
-    height: $imgSize;
+img{
+    $imageSize: 10em;
+    width: $imageSize;
+    object-fit: cover;
+    height: $imageSize;
 }
