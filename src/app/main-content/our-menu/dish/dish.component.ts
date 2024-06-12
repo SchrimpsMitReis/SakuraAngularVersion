@@ -17,9 +17,10 @@ export class DishComponent {
   @Input() name!: string;
   @Input() url!: string;
   @Input() switch: boolean = false;
-  constructor(){
-    console.log(this.name);
-    
-  }
 
+  ngOnInit(): void{
+    if (this.switch){
+      
+    }
+  }
 }

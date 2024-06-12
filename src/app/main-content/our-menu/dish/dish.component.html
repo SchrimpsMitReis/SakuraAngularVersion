@@ -1,4 +1,4 @@
-<div class="dish">
+<div class="dish" [ngStyle]="{'flex-direction': switch ? 'row' : 'row-reverse'}">
     <img src={{url}} alt="imgDish">
     <div class="textPart">
         <h3>{{name}}</h3>

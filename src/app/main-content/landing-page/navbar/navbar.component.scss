@@ -2,9 +2,9 @@ nav{
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 100%;
+    width: 90vw;
     justify-content: space-between;
-    gap: 50em;
+    // gap: 50em;
     margin-top: 5em;
 }
 .logo{
@@ -18,7 +18,15 @@ nav{
     display: flex;
     flex-direction: row;
     font-family: 'Raleway';
+    align-items: center;
     color: white;
     gap: 1em;
     font-size: 2em;
+}
+
+@media (max-width: 1000px) {
+    .links{
+        font-size: 1em;
+    }
+    
 }

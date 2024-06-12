@@ -1,0 +1,29 @@
+section{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5em;
+    gap: 5em;
+}
+.map{
+    width: 100%
+}
+.subTitle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    text-transform: uppercase;
+}
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+    color: #9F0908;
+    text-align: center;
+}
