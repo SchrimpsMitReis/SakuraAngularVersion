@@ -5,12 +5,9 @@
     align-items: center;
     gap: 3em;
 }
-.orderImage {
+img {
     $imageSize: 8em;
-    background-image: url("./../../../../assets/IMG/1.Noodle.svg");
-    background-repeat: no-repeat;
     width: $imageSize;
-    height: $imageSize;
 }
 
 h3 {
