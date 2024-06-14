@@ -5,6 +5,12 @@
 .fontRaleway{
     font-family: 'Raleway';
 }
+@mixin setFlex($display: flex, $direction: column, $aI: center, $jC: center){
+    display: $display;
+    flex-direction: $direction;
+    align-items: $aI;
+    justify-content: $jC;
+}
 /* raleway-200 - latin */
 @font-face {
     font-display: swap;

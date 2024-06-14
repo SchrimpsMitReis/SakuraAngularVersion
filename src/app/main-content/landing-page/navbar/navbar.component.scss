@@ -25,6 +25,9 @@ nav{
 a{
     text-decoration: none;
     color: white;
+    &:hover{
+        color: red;
+    }
 }
 @media (max-width: 1000px) {
     .links{
